@@ -1,0 +1,84 @@
+/*style  sheet*/
+/* 文档部分 */
+
+body,h1,h2,h3,h4,h5,h6,p,table,td,tr,thead,tbody,input,button{
+	margin: 0;
+	padding: 0;
+}
+body,input{
+	font: 14px/1.5em 'Helvetica','Arial','sans-serif';
+	color: #333;
+}
+
+.wrap{
+	position: relative;
+	width: 620px;
+	margin: 0 auto;
+	text-align: center;
+}
+table{
+	margin:0 auto;
+	border: 1px solid #699;
+}
+
+caption{
+	margin: auto;
+	padding: 0.2em;
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+thead th{
+	padding: 0.5em;
+}
+th{
+	font-weight: bold;
+	text-align: left;
+	border: 1px dotted #699;
+	background-color: #9cc;
+	color: #000;
+}
+td,th{
+	width: 10em;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+td.number{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+td span.data{
+	display: inline-block;
+	padding: 6px 0;
+}
+input[type='text']{
+	width: 152px;
+	padding: 5px; 
+	font-size: 14px;
+}
+.remove{
+	letter-spacing: 0.3em;
+	cursor: pointer;
+}
+.remove:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+.handle{
+	padding: 1.2em 0;
+	overflow: hidden;
+}
+.add,.place{
+	float: right;
+	cursor: pointer;
+	width: 65px;
+	height: 25px;
+}
+.place{
+	margin-right: 20px;
+}
+.odd{
+	background-color: #ffc;
+}
